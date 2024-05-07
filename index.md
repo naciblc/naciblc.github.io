@@ -4,7 +4,7 @@ description: The official website of Naci Balci
 last_modified_at: 2024
 layout: matrix
 header: matrix.jpg
-header-title: 
+header-title: a
 header-subtitle: Cyber Security
 caption: <a href="/assets/images/matrix.jpg" target="_blank">Cropping</a> of the cover for <i>Anthology I</i> — art by <a href="https://vladmomotart.tumblr.com/" target="_blank">Vlad Momot</a> as a paid commission
 ---
