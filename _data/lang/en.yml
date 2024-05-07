@@ -171,9 +171,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Merhaba
+  greetings: Hello
   welcome: Welcome
-  sample: Cyber Security
+  sample: Sample
 
 # for contact form
 contact_form:
