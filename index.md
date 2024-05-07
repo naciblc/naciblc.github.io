@@ -3,10 +3,10 @@ title: Home
 description: The official website of Naci Balcı
 last_modified_at: March 11, 2024
 layout: header
-header: header_blur.jpg
+header: matrix.jpg
 header-title: 
 header-subtitle: Cyber Security
-caption: <a href="/assets/images/matrix.jpg" target="_blank">Cropping</a> of the cover for <i>Anthology I</i> — art by <a href="https://vladmomotart.tumblr.com/" target="_blank">Vlad Momot</a> as a paid commission
+caption: <a href="/assets/images/header.jpg" target="_blank">Cropping</a> of the cover for <i>Anthology I</i> — art by <a href="https://vladmomotart.tumblr.com/" target="_blank">Vlad Momot</a> as a paid commission
 ---
 
 <div class="feature" markdown=0>
