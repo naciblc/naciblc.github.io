@@ -6,7 +6,7 @@ layout: header
 header: matrix.jpg
 header-title: 
 header-subtitle: 
-caption: <a href="/assets/images/header.jpg" target="_blank">Cropping</a> of the cover for <i>Anthology I</i> — art by <a href="https://vladmomotart.tumblr.com/" target="_blank">Vlad Momot</a> as a paid commission
+caption: 
 ---
 
 <div class="feature" markdown=0>
