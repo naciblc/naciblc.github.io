@@ -9,7 +9,7 @@ url: https://schizoidnightmares.com
 
 # jekyll config
 timezone: America/Toronto
-title: Schizoid Nightmares
+title: Naci Balci
 permalink: /:categories/:title/
 exclude:
   - Gemfile
