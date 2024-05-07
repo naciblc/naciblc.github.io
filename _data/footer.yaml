@@ -1,0 +1,16 @@
+- title: Patreon
+  url: https://www.patreon.com/schizoidnightmares
+  external: true
+
+- title: Credits
+  url: /credits/
+
+- title: Terms
+  url: /terms/
+
+- title: RSS
+  url: /feed.xml
+
+- title: Git
+  url: https://github.com/schizoidnightmares/schizoidnightmares.com
+  external: true

@@ -1,45 +1,49 @@
 ---
-layout: home
-# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_home
-
-# image for page specific usage
-img: ":home-heading.jpg"
-# publish date (used for seo)
-# if not specified, site.time will be used.
-#date: 2022-03-03 12:32:00 +0000
-
-# for override items in _data/lang/[language].yml
-#title: My title
-#button_name: "My button"
-# for override side_and_top_nav_buttons in _data/conf/main.yml
-#icon: "fa fa-bath"
-
-# seo
-# if not specified, date will be used.
-#meta_modify_date: 2022-03-03 12:32:00 +0000
-# check the meta_common_description in _data/owner/[language].yml
-#meta_description: ""
-
-# optional
-# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
-# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
-#image_viewer_on: true
-# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
-# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
-#image_lazy_loader_on: true
-# exclude from on site search
-#on_site_search_exclude: true
-# exclude from search engines
-#search_engine_exclude: true
-# to disable this page, simply set published: false or delete this file
-# don't forget that this is root index.html. If you disable this, there will be no index.html page to open
-#published: false
+title: Home
+description: The official website of Schizoid Nightmares
+last_modified_at: March 11, 2024
+layout: header
+header: header_blur.jpg
+header-title: Schizoid Nightmares
+header-subtitle: 2019–present
+caption: <a href="/assets/images/header.jpg" target="_blank">Cropping</a> of the cover for <i>Anthology I</i> — art by <a href="https://vladmomotart.tumblr.com/" target="_blank">Vlad Momot</a> as a paid commission
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+<div class="feature" markdown=0>
+    <a href="https://absurdrealms.com/" target="_blank"><img src="/assets/images/ar_icon_small.png"></a>
+    <div>
+        <h2><i><a href="https://absurdrealms.com/" target="_blank">Absurd Realms</a></i></h2>
+        <p class="cap">2023–present</p>
+        <p>An absurdist science fantasy series</p>
+        <div><a href="https://absurdrealms.com/" target="_blank">visit website</a></div>
+    </div>
+</div>
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+<div class="feature" markdown=0>
+    <a href="https://schizoidnightmares.net/" target="_blank"><img src="/assets/images/snf_icon_small.png"></a>
+    <div>
+        <h2><a href="https://schizoidnightmares.net/" target="_blank">Schizoid Nightmares Forums</a></h2>
+        <p class="cap">2023–present</p>
+        <p>A public forums for feedback and discussion</p>
+        <div><a href="https://schizoidnightmares.net/" target="_blank">visit forums</a></div>
+    </div>
+</div>
 
-{{ website_info_text_second }}
+<div class="feature" markdown=0>
+    <a href="/music/"><img src="/assets/images/note_small.png"></a>
+    <div>
+        <h2><a href="/music/">Music</a></h2>
+        <p class="cap">2020–present</p>
+        <p>A free collection of amateur electronic music</p>
+        <div><a href="/music/">browse music</a></div>
+    </div>
+</div>
+
+<div class="feature" markdown=0>
+    <img src="/assets/images/inputium_icon_small.png">
+    <div>
+        <h2>Inputium</h2>
+        <p>A free productivity web app suite</p>
+        <div>TBA</div>
+    </div>
+</div>

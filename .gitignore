@@ -1,21 +1,10 @@
-# this will handle to macos hidden folders
-# ignore all starts with .* except .git and so on
-.*
-!.git*
-!.editorconfig
-
-# jekyll Cache
-_site
+*.gem
+.bundle
+.jekyll-cache
 .sass-cache
-.jekyll-metadata
+_site
 Gemfile.lock
-
-# OS generated
-ehthumbs.db
-Thumbs.db
-
-# diff files
-*.bak
-
-# updating Gemfile automatically using github actions
-vendor
+.DS_Store
+.htaccess
+.jekyll-metadata
+.temp

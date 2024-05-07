@@ -1,0 +1,383 @@
+- title: Affinity Designer
+  flag: gb
+  url: https://affinity.serif.com/en-gb/designer/
+  usage: Vector production
+  notes: Paid software
+
+- title: archive.today
+  url: https://archive.ph/
+  usage: Web archiving
+  notes: Free service
+
+- title: Azgaar’s Fantasy Map Generator
+  flag: ge
+  url: https://github.com/Azgaar/Fantasy-Map-Generator
+  usage: For my article “<a href="https://schizoidnightmares.medium.com/how-to-generate-custom-biomes-in-azgaars-fantasy-map-generator-763e726a1093" target="_blank">How to generate custom biomes in Azgaar’s Fantasy Map Generator</a>”
+  notes: Licensed under the <a href="https://github.com/Azgaar/Fantasy-Map-Generator/blob/master/LICENSE" target="_blank">MIT License</a>
+
+- title: Cloudflare, Inc.
+  flag: us
+  url: https://www.cloudflare.com/
+  usage: Host for schizoidnightmares.com and absurdrealms.com
+  notes: Freemium service
+
+- title: Code Climate
+  flag: us
+  url: https://codeclimate.com/
+  usage: Code analysis
+  notes: Freemium service
+
+- title: colordesigner.io
+  flag: pl
+  url: https://colordesigner.io/
+  usage: Colour tools
+  notes: Free service
+
+- title: Compress PNG
+  flag: lv
+  url: https://compresspng.com/
+  usage: PNG file compression
+  notes: Free service
+
+- title: CompVis
+  flag: de
+  url: https://ommer-lab.com/
+  usage: Stable Diffusion
+  notes: Research group at the Ludwig Maximilian University of Munich
+
+- title: cottonbro studio
+  flag: ru
+  url: https://www.pexels.com/@cottonbro/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: Creative Commons
+  flag: us
+  url: https://creativecommons.org/
+  usage: Licensing
+  notes: Free service
+
+- title: Dan Grossman
+  flag: us
+  url: https://www.airships.net/
+  usage: Online articles on airships
+  notes: Free reference
+
+- title: David Merfield
+  flag: us
+  url: https://lllllllllllllllll.com/
+  usage: <a href="https://github.com/davidmerfield/Public-Icons" target="_blank">Public Icons</a> (derived)
+  notes: Licensed under <a href="https://github.com/davidmerfield/Public-Icons/blob/master/LICENSE" target="_blank">CC0 1.0</a>
+
+- title: EleutherAI
+  flag: us
+  url: https://www.eleuther.ai/
+  usage: Stable Diffusion
+  notes: Non-profit organization
+
+- title: <i>Encyclopædia Britannica</i>
+  flag: us
+  url: https://www.britannica.com/
+  usage: Encyclopedia
+  notes: Free service
+
+- title: favicon.io
+  flag: us
+  url: https://favicon.io/
+  usage: Favicon generator
+  notes: Free service
+
+- title: Font Awesome
+  flag: us
+  url: https://fontawesome.com/
+  usage: Free icons (derived)
+  notes: Free icons licensed under <a href="https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt" target="_blank">CC BY 4.0</a>
+
+- title: GarageBand
+  flag: us
+  url: https://www.apple.com/mac/garageband/
+  usage: Music production
+  notes: Free software
+
+- title: Gideon Greenspan
+  flag: il
+  url: https://www.gidgreen.com/
+  usage: <a href="https://familyecho.com/" target="_blank">Family Echo</a>
+  notes: Free service
+
+- title: GIMP
+  flag: us
+  url: https://www.gimp.org/
+  usage: Raster production
+  notes: Free software
+
+- title: GitHub
+  flag: us
+  url: https://github.com/
+  usage: Software host and version control
+  notes: Freemium service
+
+- title: Google Sheets
+  flag: us
+  url: https://www.google.com/sheets/about/
+  usage: Spreadsheet production and hosting
+  notes: Freemium software
+
+- title: Grammarly
+  flag: us
+  url: https://www.grammarly.com/
+  usage: Proofreading
+  notes: Freemium service
+
+- title: Grey Liliy
+  flag: us
+  url: https://www.patreon.com/greyliliy
+  usage: Constructive feedback for <i>Schizoid Nightmares Anthology I</i>
+  notes: Unpaid contributor
+  direct: true
+
+- title: Hayk An
+  flag: es
+  url: https://github.com/hihayk
+  usage: <a href="https://hihayk.github.io/scale/" target="_blank">Scale</a>
+  notes: Free tool
+
+- title: hcodes
+  flag: ru
+  url: https://github.com/hcodes
+  usage: <a href="https://github.com/fast-average-color/fast-average-color" target="_blank">fast-average-color</a>
+  notes: Licensed under the <a href="https://github.com/fast-average-color/fast-average-color/blob/master/LICENSE" target="_blank">MIT License</a>
+
+- title: iMovie
+  flag: us
+  url: https://www.apple.com/imovie/
+  usage: Video editing and compiling
+  notes: Free software
+
+- title: Internet Archive
+  flag: us
+  url: https://archive.org/
+  usage: Web archiving
+  notes: Free service
+
+- title: Jekyll
+  flag: us
+  url: https://jekyllrb.com/
+  usage: Static site generator for schizoidnightmares.com and absurdrealms.com
+  notes: Licensed under the <a href="https://github.com/jekyll/jekyll/blob/master/LICENSE" target="_blank">MIT License</a>
+
+- title: jekyll-paginate-v2
+  flag: is
+  url: https://github.com/sverrirs/jekyll-paginate-v2
+  usage: News pagination
+  notes: Licensed under the <a href="https://github.com/sverrirs/jekyll-paginate-v2/blob/master/LICENSE" target="_blank">MIT License</a>
+
+- title: jekyll-tidy
+  flag: us
+  url: https://github.com/apsislabs/jekyll-tidy
+  usage: Plugin for tidying up HTML
+  notes: Licensed under the <a href="https://github.com/apsislabs/jekyll-tidy/blob/master/LICENSE.txt" target="_blank">MIT License</a>
+
+- title: KandooAI
+  url: https://civitai.com/user/KandooAI
+  usage: <a href="https://civitai.com/models/133005/juggernaut-xl" target="_blank">Juggernaut XL</a>
+  notes: Free software under the <a href="https://github.com/Stability-AI/generative-models/blob/main/model_licenses/LICENSE-SDXL1.0" target="_blank">Stability AI CreativeML Open RAIL++-M License</a>
+
+- title: Kelly Lacy
+  flag: us
+  url: https://www.pexels.com/@kelly-1179532/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: LAION
+  flag: de
+  url: https://laion.ai/
+  usage: Stable Diffusion
+  notes: Non-profit organization
+
+- title: Leniolabs
+  flag: us
+  url: https://www.leniolabs.com/
+  usage: <a href="https://layoutit.com/" target="_blank">LayoutIt!</a>
+  notes: Free tool
+
+- title: Lora by Cyreal
+  flag: ge
+  url: http://cyreal.org/fonts/lora/
+  usage: Font; used in branding; used on schizoidnightmares.com and absurdrealms.com
+  notes: Licensed under the <a href="http://cyreal.org/license/" target="_blank">OFL</a>
+
+- title: MasterClass
+  flag: us
+  url: https://www.masterclass.com/
+  usage: Writing tutorials
+  notes: Freemium resource
+
+- title: Material Theme Builder
+  flag: us
+  url: https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder
+  usage: Website colour scheme generator
+  notes: Free tool
+
+- title: MDN Web Docs
+  flag: us
+  url: https://developer.mozilla.org/
+  usage: Web development reference
+  notes: Free service
+
+- title: Miguel Á. Padriñán
+  flag: mx
+  url: https://www.pexels.com/@padrinan/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: Nathan Vaughn
+  flag: us
+  url: https://nathanv.me/
+  usage: 'GitHub action for cache purging: <a href="https://github.com/NathanVaughn/actions-cloudflare-purge" target="_blank">actions-cloudflare-purge</a>'
+  notes: GitHub action licensed under the <a href="https://github.com/NathanVaughn/actions-cloudflare-purge/blob/master/LICENSE" target="_blank">MIT License</a>
+
+- title: NightCafe Studio
+  flag: au
+  url: https://creator.nightcafe.studio/
+  usage: AI art generator
+  notes: Freemium service
+
+- title: Njalla
+  flag: kn
+  url: https://njal.la/
+  usage: Domain registration
+  notes: Paid service
+
+- title: Open Sans by Steve Matteson
+  flag: us
+  url: https://fonts.google.com/specimen/Open+Sans
+  usage: Font; used on schizoidnightmares.com, absurdrealms.com, and schizoidnightmares.net
+  notes: Licensed under the <a href="https://openfontlicense.org/open-font-license-official-text/" target="_blank">OFL</a>
+
+- title: Pages
+  flag: us
+  url: https://www.apple.com/pages/
+  usage: Word processor
+  notes: Free software
+
+- title: Pexels
+  flag: de
+  url: https://www.pexels.com/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: Pixabay
+  flag: de
+  url: https://www.pexels.com/@pixabay/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: RubyGems
+  flag: us
+  url: https://rubygems.org/
+  usage: Ruby packages
+  notes: Free service
+
+- title: Runway AI, Inc.
+  flag: us
+  url: https://runwayml.com/
+  usage: Stable Diffusion
+  notes: Private company
+
+- title: Sasha Trubetskoy
+  flag: us
+  url: https://sashamaps.net/
+  usage: <a href="https://sashamaps.net/docs/resources/20-colors/" target="_blank">List of 20 Simple, Distinct Colors</a>
+  notes: Free resource
+
+- title: Self-Publishing School
+  flag: us
+  url: https://self-publishingschool.com/
+  usage: <a href="https://self-publishingschool.com/parts-of-a-book/" target="_blank">Parts of a book</a>
+  notes: Free reference
+
+- title: Shaping Design Blog
+  flag: il
+  url: https://www.editorx.com/shaping-design
+  usage: <a href="https://www.editorx.com/shaping-design/article/font-size" target="_blank">Font size guidelines</a>
+  notes: Free service
+
+- title: Stability AI
+  flag: gb
+  url: https://stability.ai/
+  usage: Stable Diffusion
+  notes: Private company
+
+- title: Stack Overflow
+  flag: us
+  url: https://stackoverflow.com/
+  usage: Programming help
+  notes: Free service
+
+- title: Tally
+  flag: be
+  url: https://tally.so/
+  usage: Form builder and hosting
+  notes: Freemium service
+
+- title: <i>The Markdown Guide</i>
+  flag: us
+  url: https://www.markdownguide.org/
+  usage: Markdown syntax reference
+  notes: Free service
+
+- title: Thesaurus.com
+  flag: us
+  url: https://www.thesaurus.com/
+  usage: Thesaurus
+  notes: Free service
+
+- title: TMDHosting
+  flag: us
+  url: https://www.tmdhosting.com/
+  usage: Website host for schizoidnightmares.net
+  notes: Paid service
+
+- title: Tom Fisk
+  flag: us
+  url: https://www.pexels.com/@tomfisk/
+  usage: Stock videos
+  notes: Licensed under the <a href="https://www.pexels.com/license/" target="_blank">Pexels License</a>
+
+- title: Tutorialspoint
+  flag: in
+  url: https://www.tutorialspoint.com/
+  usage: Web development reference
+  notes: Free service
+
+- title: Visual Studio Code
+  flag: us
+  url: https://code.visualstudio.com/
+  usage: Source-code editing
+  notes: Free software
+
+- title: Vlad Momot
+  flag: ru
+  url: https://vladmomotart.tumblr.com/
+  usage: Cover artist for <i>Schizoid Nightmares Anthology I</i> and <i>The Flippers</i>
+  notes: Paid contributor; art produced for me licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+  direct: true
+
+- title: W3Schools
+  flag: 'no'
+  url: https://www.w3schools.com/
+  usage: Web development reference
+  notes: Free service
+
+- title: Wiktionary
+  flag: us
+  url: https://www.wiktionary.org/
+  usage: Dictionary
+  notes: Free service
+
+- title: XenForo
+  flag: gb
+  url: https://xenforo.com/
+  usage: Forums software powering schizoidnightmares.net
+  notes: Paid software
