@@ -1,0 +1,222 @@
+page_data:
+  main:
+    header: "Projeler"
+    info: "Proje sayfası açıklamanız."
+    text_color: "white"
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "Örnek"
+      type: id_example
+      color: "gray"
+    - title: "Resim"
+      type: id_picture
+      color: "#62b462"
+    - title: "Alıntı"
+      type: id_quote
+      color: "#2FD0ED"
+
+  list:
+    - type: id_example
+      project_name: "Örnek Proje"
+      project_excerpt: "Örnekler"
+      img: ":project1_thumb.jpg"
+      img_title: "resim başlığı1"
+      date: "2021-03-13"
+      post: |
+        # Örnekler
+
+        Bu, Mr. Green Jekyll Teması ile ilgili markdown stillerini görüntülemek için örnek bir sayfadır.
+
+        ### Başlıklar (orta hizalı)
+        {:data-align="center"}
+
+        # Başlık 1
+
+        ## Başlık 2
+
+        ### Başlık 3
+
+        #### Başlık 4
+
+        ##### Başlık 5
+
+        ###### Başlık 6
+
+        ***
+
+        ### Paragraflar
+
+        #### Paragraf
+
+        **William Shakespeare**, Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+
+        #### Metinler
+
+        Alıntılanan metin `Merhaba dünya`
+
+        Kalın metin **Merhaba dünya**
+
+        İtalik metin _Merhaba dünya_
+
+        kbd metni <kbd>Merhaba dünya</kbd>
+
+        #### Alıntı bloğu
+
+        > **William Shakespeare**, Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+
+        ### Bağlantı
+
+        Bu, [Mr. Green Jekyll Teması](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme) bir [Jekyll](https://jekyllrb.com/) için basit bir temadır.
+
+        ### Resim
+
+        ![ne güzel bir yer](:projects-heading.jpg)
+
+        ### Resim (ortalanmış)
+
+        ![ne güzel bir yer](:project1_thumb.jpg){:data-align="center"}
+
+        ### Listeler
+
+        - Elma
+        - Muz
+        - Portakal
+
+        1. Meyveler
+            1. Elmalar
+                - Granny Smith
+                - Mutsu
+            1. Muzlar
+                - Cavendish
+                - Kırmızı
+        1. Sebzeler
+
+        ***
+
+        ### Tablolar
+
+        #### Küçük Tablo (orta hizalı)
+
+        | Meyveler(hizalanmamış) | Hizalama (orta) | num (sağa hizalı) |
+        | ------------------- | :--------------: | ----------------: |
+        | Elma               |       orta       |              9999 |
+        | Muz                |  orta uzun metin  |               999 |
+        | Portakal           |       orta       |                99 |
+        | Limon              |       orta       |                 9 |
+        {:data-align="center"}
+
+        #### Geniş Tablo (orta hizalı)
+
+        sayfa dar olduğunda kaydırma etkinleştirilmiştir
+
+        | Meyveler | num (sol hizalı) | num (sağa hizalı) | num  | num  | num  |
+        | -------- | :--------------- | ----------------: | ---- | ---- | ---- |
+        | Elma     | 1111              |              1111 | 2222 | 3333 | 4444 |
+        | Muz      | 111               |               111 | 222  | 333  | 444  |
+        | Portakal | 11                |                11 | 22   | 33   | 44   |
+        | Limon    | 1                 |                 1 | 2    | 3    | 4    |
+        {:data-align="center"}
+
+        #### Daha Geniş Tablo
+
+        sayfa dar olduğunda kaydırma etkinleştirilmiştir
+
+        | Meyveler | num (sol hizalı) | num (sağa hizalı) | num  | num  | num  | num  | num  | num  |
+        | -------- | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
+        | Elma     | 1111              |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
+        | Muz      | 111               |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
+        | Portakal | 11                |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
+        | Limon    | 1                 |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
+
+        ### Kod
+
+        #### Alıntı
+
+        ```python
+        for i in range(5, 10):
+          print(i)
+        ```
+
+    - type: id_picture
+      project_name: "Örnek Proje"
+      project_excerpt: "Resim"
+      img: ":project2_thumb.jpg"
+      img_title: "resim başlığı2"
+      date: "2021-04-23"
+      post: |
+        # Başlık
+        Bu, proje içeriğidir.
+
+        ![Resim](:project2_thumb.jpg)
+
+    - type: id_quote
+      project_name: "Örnek Proje"
+      project_excerpt: "William Shakespeare"
+      date: "2021-05-27"
+      post: |
+        Let me not to the marriage of true minds
+        Admit impediments. Love is not love
+        Which alters when it alteration finds,
+        Or bends with the remover to remove.
+        O no, it is an ever-fixed mark
+        That looks on tempests and is never shaken;
+        It is the star to every wand'ring barque,
+        Whose worth's unknown, although his height be taken.
+        Love's not Time's fool, though rosy lips and cheeks
+        Within his bending sickle's compass come;
+        Love alters not with his brief hours and weeks,
+        But bears it out even to the edge of doom.
+        If this be error and upon me proved,
+        I never writ, nor no man ever loved.
+    - type: id_quote
+      project_name: "Örnek Proje"
+      project_excerpt: "Albert Einstein"
+      img: ":project2_thumb.jpg"
+      img_title: "resim başlığı3"
+      date: "2021-06-08"
+      post: |
+        İki şey sonsuzdur: evren ve insan saflığı; ve evren hakkında emin değilim.
+    - type: id_quote
+      project_name: "Örnek Proje"
+      project_excerpt: "Mae West"
+      img: ":project1_thumb.jpg"
+      img_title: "resim başlığı4"
+      date: "2021-08-20"
+      post: |
+        Sadece bir kez yaşarsınız, ama doğru yaparsanız, bir kez yeterlidir.
+    - type: id_quote
+      project_name: "Örnek Proje"
+      project_excerpt: "Mahatma Gandhi"
+      img: ":project2_thumb.jpg"
+      img_title: "resim başlığı5"
+      date: "2021-12-20"
+      post: |
+        Dünyada görmek istediğiniz değişiklik olun.
