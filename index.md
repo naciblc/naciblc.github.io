@@ -1,7 +1,3 @@
------------------------
-title:home
-
------------------
 
 <div class="feature" markdown=0>
     
@@ -14,7 +10,9 @@ title:home
     </div>
 </div>
 
-
+-
+title:home
+-
 
 <div class="feature" markdown=0>
     <a href="https://schizoidnightmares.net/" target="_blank"><img src="/assets/images/snf_icon_small.png"></a>
