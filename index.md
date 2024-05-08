@@ -1,3 +1,13 @@
+<div class="feature" markdown=0>
+    
+    <a href="https://absurdrealms.com/" target="_blank"><img src="/assets/images/ar_icon_small.png"></a>
+    <div>
+        <h2><i><a href="https://absurdrealms.com/" target="_blank">Absurd Realms</a></i></h2>
+        <p class="cap">2023–present</p>
+        <p>An absurdist science fantasy series</p>
+        <div><a href="https://absurdrealms.com/" target="_blank">visit website</a></div>
+    </div>
+</div>
 ---
 title: Home
 description: The official website of Naci Balcı
@@ -9,17 +19,7 @@ header-subtitle:
 caption: 
 ---
 
-<div class="side-nav"><div class="side-nav-brand"> <img src="/assets/img/posts/post_pic1.jpg" alt=""><div class="brand-holder"> <a href="/" translate="no">Naci Balci</a></div><p>&nbsp;Cyber Security</p><br></div><br> <a href="javascript:void(0);" class="side-nav-close"> <i class="fa fa-angle-double-left fa-2x" aria-hidden="true"></i> </a><hr> <br><div class="side-nav-buttons"><ul class="nav nav-pills nav-stacked"><li style="pointer-events: none;"><a href="/" class="active-page hover-effect"><i class="fa-fw fa fa-home" aria-hidden="true"></i>Home</a></li><li><a href="/tabs/blog/" class=" hover-effect"><i class="fa-fw fa fa-pencil-square-o" aria-hidden="true"></i>Blog</a></li><li><a href="/tabs/archive.html" class=" hover-effect"><i class="fa-fw fa fa-archive" aria-hidden="true"></i>Archive</a></li><li><a href="/tabs/projects.html" class=" hover-effect"><i class="fa-fw fa fa-cog" aria-hidden="true"></i>Projects</a></li><li><a href="/tabs/links.html" class=" hover-effect"><i class="fa-fw fa fa-link" aria-hidden="true"></i>Links</a></li><li><a href="/tabs/about.html" class=" hover-effect"><i class="fa-fw fa fa-user-o" aria-hidden="true"></i>About</a></li></ul></div><br> <br><hr id="toc-view-top"><div class="side-nav-footer" translate="no"><p>© 2024 Naci Balci.</p></div></div>
-<div class="feature" markdown=0>
-    
-    <a href="https://absurdrealms.com/" target="_blank"><img src="/assets/images/ar_icon_small.png"></a>
-    <div>
-        <h2><i><a href="https://absurdrealms.com/" target="_blank">Absurd Realms</a></i></h2>
-        <p class="cap">2023–present</p>
-        <p>An absurdist science fantasy series</p>
-        <div><a href="https://absurdrealms.com/" target="_blank">visit website</a></div>
-    </div>
-</div>
+
 
 <div class="feature" markdown=0>
     <a href="https://schizoidnightmares.net/" target="_blank"><img src="/assets/images/snf_icon_small.png"></a>
