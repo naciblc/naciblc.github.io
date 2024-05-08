@@ -1,5 +1,5 @@
 {%-comment-%}
-  Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
   Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
   Licensed under MIT
 {%-endcomment-%}
@@ -11,7 +11,7 @@
 {%- else -%}
   {%- assign meta_og_type = "website" %}
 {%- endif -%}
-<meta property="og:site_name" content="{{ site.data.owner[lng].brand }}">
+<meta property="og:site_name" content="{{ site.data.owner.brand }}">
 <meta property="og:type" content="{{ meta_og_type }}">
 <meta property="og:title" content="{{ meta_title | truncate: 50 }}">
 <meta property="og:description" content="{{ meta_desc | truncate: 150 }}">
@@ -24,12 +24,8 @@
 
 {%- if page.layout == 'post' %}
   <meta property="article:author" content="{{ meta_author }}">
-  {%- if meta_date_published %}
   <meta property="article:published_time" content="{{ meta_date_published }}">
-  {%- endif %}
-  {%- if meta_date_modified %}
   <meta property="article:modified_time" content="{{ meta_date_modified }}">
-  {%- endif %}
   <meta property="article:section" content="{{ page.category }}">
   {%- for tag_name in page.tags %}
   <meta property="article:tag" content="{{ tag_name }}">

@@ -1,4 +1,4 @@
-/* Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+/* Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  * Licensed under MIT
 */
@@ -6,7 +6,6 @@
 /* Search result dropdown */
 #search-results {
   @include get_scheme(searchresult-colors-);
-  --search-results-margin-left: 23px;
   display: block;
   background-color: var(--searchresult-background-color);
   list-style: none;
@@ -19,8 +18,7 @@
   border: 0;
   z-index: 999;
   width: auto;
-  max-width: calc(100vw - (var(--side-nav-width) + var(--main-container-margin) + var(--search-results-margin-left)));
-  margin-left: var(--search-results-margin-left);
+  margin-left: 23px;
   font-size: 1.4rem;
 }
 
@@ -63,14 +61,13 @@
 }
 
 /* search result date */
-#search-results > li .date {
-  float: right;
+#search-results > li span {
+  position: absolute;
+  right: 12px;
 }
 
-/* search result title */
-#search-results > li .title {
-  float: left;
-  /* add an ellipsis if search result text is too long */
+/* add an ellipsis if search result text is too long */
+#search-results > li :not(span) {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

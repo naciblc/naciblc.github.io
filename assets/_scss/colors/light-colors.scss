@@ -1,4 +1,4 @@
-/* Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+/* Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  * Licensed under MIT
 */
@@ -36,13 +36,6 @@ $anchor-text-color-light: #3389de;
   --contact-icons-color: #{$button-color-light};
   --contact-icons-hover-color: #303033;
   --contact-header-color: #{$button-color-light};
-  > ul > li > a > img {
-    filter: invert(70%) sepia(0%) saturate(179%) hue-rotate(158deg)
-      brightness(94%) contrast(74%);
-  }
-  > ul > li > a:hover > img {
-    filter: unset;
-  }
 }
 // default/default
 %default-colors-light {
@@ -64,6 +57,7 @@ $anchor-text-color-light: #3389de;
 %sliding-msg-box-colors-light {
   --sliding-msg-box-background-color: #{$menu-background-light};
   --sliding-msg-box-border-color: #d9d9d9;
+  --sliding-msg-box-header-color: #{$header-color-light};
   --sliding-msg-box-header-shadow-color: #0102034d;
 }
 // default/nav/navigation-buttons
@@ -116,12 +110,7 @@ $anchor-text-color-light: #3389de;
   --consent-bar-shadow-color: #00000055;
 }
 %consent-settings-colors-light {
-  --consent-settings-header-color: #{$header-color-light};
   --consent-settings-active-text-color: #{$anchor-text-color-light};
-}
-// default/lang-offer
-%lang-offer-colors-light {
-  --lang-offer-header-color: #{$header-color-light};
 }
 // common/button
 %button-colors-light {

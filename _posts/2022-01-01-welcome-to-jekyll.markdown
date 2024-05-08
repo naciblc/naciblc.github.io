@@ -4,7 +4,7 @@ lng_pair: id_What_is_this
 title: "Welcome to Jekyll!"
 
 # post specific
-# if not specified, .name will be used from _data/owner/[language].yml
+# if not specified, .name will be used from _data/owner.yml
 author: Jekyll
 # multiple category is not supported
 category: jekyll
@@ -21,15 +21,13 @@ date: 2022-01-01 10:04:30 +0900
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2022-01-01 10:04:30 +0900
-# check the meta_common_description in _data/owner/[language].yml
+# check the meta_common_description in _data/lang/[language].yml
 #meta_description: ""
 
 # optional
-# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
-# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
 #image_viewer_on: true
-# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
-# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
 #image_lazy_loader_on: true
 # exclude from on site search
 #on_site_search_exclude: true

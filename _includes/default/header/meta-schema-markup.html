@@ -1,5 +1,5 @@
 {%-comment-%}
-  Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
   Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
   Licensed under MIT
 {%-endcomment-%}
@@ -8,7 +8,7 @@
 
 {%-comment-%} get contact links {%-endcomment-%}
 {%- assign meta_contact_pages = '' | split: '' -%}
-{% for accounts in site.data.owner[lng].contacts -%}
+{% for accounts in site.data.owner.contacts -%}
   {%- assign account_var = accounts | first %}{% assign account_key = account_var[0] %}{% assign account_username = account_var[1] -%}
   {%- if account_key == 'email' -%}{% continue %}{% endif -%}
   {%- if account_username == nil or account_username == empty -%}{% continue %}{% endif -%}
@@ -80,7 +80,7 @@
   {%-capture organization_meta_ld_json %}
       "@type": "Organization"
       ,"@id": "{{ organization_id }}"
-      ,"name": "{{ site.data.owner[lng].brand }}"
+      ,"name": "{{ site.data.owner.brand }}"
       ,"url": "{{ base_url }}"
     {%- if meta_logo_image %}
       ,"logo": "{{ meta_logo_image }}"
@@ -172,7 +172,7 @@
     "@type": "WebSite"
     ,"@id": "{{ website_id }}"
     ,"url": "{{ base_url }}"
-    ,"name": "{{ site.data.owner[lng].brand }}"
+    ,"name": "{{ site.data.owner.brand }}"
   {%- if site_default_desc %}
     ,"description": "{{ site_default_desc }}"
   {%- endif %}
@@ -185,7 +185,7 @@
   {%- endif %}
   {%- if copyright_id %}
     ,"copyrightHolder" : {"@id": "{{ copyright_id }}"}
-    ,"copyrightYear" : "{{ site.data.owner[lng].copyright_start_year }}"
+    ,"copyrightYear" : "{{ site.data.owner.copyright_start_year }}"
   {%- endif %}
   {%-comment-%} google says add this only to home page. {%-endcomment%}
   {%- if google_searchlinks_en %}
@@ -214,12 +214,8 @@
   {%- if meta_image %}
     ,"primaryImageOfPage": "{{ meta_image }}"
   {%- endif %}
-  {%- if meta_date_published %}
     ,"datePublished": "{{ meta_date_published }}"
-  {%- endif %}
-  {%- if meta_date_modified %}
     ,"dateModified": "{{ meta_date_modified }}"
-  {%- endif %}
     ,"description": "{{ meta_description }}"
     ,"inLanguage": "{{ lng_code }}"
     ,"potentialAction": {
@@ -249,19 +245,15 @@
       ,"image": "{{ meta_image }}"
       ,"thumbnailUrl": "{{ meta_image }}"
     {%- endif %}
-    {%- if meta_date_published %}
       ,"datePublished": "{{ meta_date_published }}"
-    {%- endif %}
-    {%- if meta_date_modified %}
       ,"dateModified": "{{ meta_date_modified }}"
-    {%- endif %}
     {%- if meta_keywords.size > 0 %}
       ,"articleSection": ["{{ meta_keywords | join: '", "' }}"]
     {%- endif %}
       ,"description": "{{ meta_description }}"
     {%- if copyright_id %}
       ,"copyrightHolder" : {"@id": "{{ copyright_id }}"}
-      ,"copyrightYear" : "{{ site.data.owner[lng].copyright_start_year }}"
+      ,"copyrightYear" : "{{ site.data.owner.copyright_start_year }}"
     {%- endif %}
       ,"wordCount": {{ content_output | number_of_words }}
     {%- if site.data.conf.main.meta.schema_markup_post_add_postbody %}
