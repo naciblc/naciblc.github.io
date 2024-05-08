@@ -18,7 +18,7 @@ layout: default
   {%- capture project_container_style -%} style="background-color:{{ project_data.main.back_color }};" {%- endcapture -%}
 {%- endif %}
 
-<div class="multipurpose-container project-heading-container" {{project_container_style}}>
+
 {%- assign color_style = nil -%}
 {%- if project_data.main.text_color -%}
   {%- capture color_style -%} style="color:{{ project_data.main.text_color }};" {%-endcapture-%}
