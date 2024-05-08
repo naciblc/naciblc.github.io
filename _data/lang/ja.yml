@@ -2,7 +2,7 @@ lng:
   name: 日本語
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
   code: ja
-  # specifically needed for open-graph meta og:locale. if open-graph not enabled, not necessary
+  # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: JP
@@ -14,9 +14,11 @@ lng:
     msg_site: 日本語ホームへ
 
 date:
+  # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
   long: "%Y年%m月%d日"
   day: "%d日"
   year: "%Y年"
+  # months itself also used in Archive page.
   months: [1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
 
 not_found:
@@ -27,7 +29,6 @@ not_found:
 no_translation_tooltip: 訳がありません
 
 navigation:
-  brand_sub_text: Jekyllテーマ
   contact_header: コンタクト
 
 color_scheme_switch_tooltip: 配色
@@ -44,7 +45,7 @@ copyright:
 
 creative_commons:
   some_rights_reserved: 一部の権利は留保されています。
-  # check _data/owner.yml for license type.
+  # check _data/owner/[language].yml for license type.
   by: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。
   by-nd: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 改変禁止 4.0 国際 ライセンスの下に提供されています。
   by-sa: 特に明記されていない限り、このWebサイトのコンテンツはクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンスの下に提供されています。
@@ -61,6 +62,10 @@ post:
   read_time:
     unit: "分"
     text: "で読めます"
+    # c for char w for word
+    word_char: c
+    # char or words per minute
+    per_minute: 500
   pager_buttons:
     older_post: "← 古い投稿へ"
     newer_post: "新しい投稿へ →"
@@ -129,10 +134,6 @@ home:
   button_name: ホーム
   new_posts_title: 新着記事
   new_posts_show_more_button: もっと見る ...
-  # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
-  top_header_line1: "ようこそ"
-  # if commented, top header will be a single line
-  top_header_line2: "$site_brand テーマへ"
 
 # for archives layout
 archives:
@@ -144,7 +145,6 @@ archives:
 about:
   title: 私について
   button_name: 私について
-  sub_title: クールなjekyllテーマ
   email_title: メール
 
 # for links layout
@@ -165,25 +165,26 @@ projects:
 privacy-policy:
   title: &privacy_policy_title プライバシーポリシー
 
-# seo meta this is needed for each language
-# If meta_description is not defined in front matter, it's created from (post / page) content,
-# if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: &meta_info $site_brand は、Jekyll で生成された、GitHub Pages と完全に互換性のある多言語テーマです。
+# constants to be replaced for
+constants:
+  greetings: こんにちは
+  welcome: ようこそ
+  sample: サンプル
 
-auto_content:
-  title: サンプル投稿(自動生成)
-  greeting: "こんにちは!"
-  text: *meta_info
-  more_info: 詳しくはこちら。
-  auto_generated_text: この内容は、選択された言語で表示するための自動生成サンプルです。
+# for contact form
+contact_form:
+  button_name: お問い合わせフォーム
+  formLoadingText: お問い合わせフォームの読み込み中…
 
+# for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
   side_nav_setting_button_tooltip: &cookie_settings クッキー設定
   panel_bar:
     msg: >
       当Webサイトは、機能を最適化するためにクッキーを使用しています。
-      承認後に有効になります。$privacy_linkを確認する。
+      承認後に有効になります。
+    privacy_msg: $privacy_linkを確認する。
     buttons:
       accept: &accept_button 全て許可
       settings: 設定
@@ -192,7 +193,8 @@ cookie_consent:
     title: *cookie_settings
     msg: >
       当Webサイトは、機能を最適化するためにクッキーを使用しています。
-      承認後に有効になります。クッキーポリシーについては、以下の各項目をクリックしてください。$privacy_linkを確認する。
+      承認後に有効になります。クッキーポリシーについては、以下の各項目をクリックしてください。
+    privacy_msg: $privacy_linkを確認する。
     buttons:
       accept: *accept_button
       save: 選択を許可

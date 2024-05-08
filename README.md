@@ -1,4 +1,4 @@
-[English] [[日本語](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)]
+[English] [[日本語](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)] [[Português do Brasil](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-pt.md#readme)]
 
 ## Mr. Green Jekyll Theme
 
@@ -7,16 +7,17 @@
 [<img src="https://img.shields.io/github/issues/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub issues" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/issues)
 [<img src="https://img.shields.io/github/forks/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub forks" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
 [<img src="https://img.shields.io/github/stars/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
-[<img src="https://img.shields.io/github/license/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE)
-[<img src="https://shields.io/badge/Patreon-Tip%20me-blue?logo=Patreon" alt="Tip Me via Patreon" data-no-image-viewer>](https://patreon.com/MrGreensWorkshop "Tip Me via Patreon")
-[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Tip Me via Ko-fi" data-no-image-viewer>](https://www.ko-fi.com/MrGreensWorkshop "Tip Me via Ko-fi")
+[<img src="https://img.shields.io/github/license/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt)
+[<img src="https://shields.io/badge/Github%20Sponsors-Support%20me-blue?logo=GitHub+Sponsors" alt="Support me on GitHub Sponsors" data-no-image-viewer>](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors")
+[<img src="https://shields.io/badge/Patreon-Support%20me-blue?logo=Patreon" alt="Support me on Patreon" data-no-image-viewer>](https://patreon.com/MrGreensWorkshop "Support me on Patreon")
+[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Tip me via Ko-fi" data-no-image-viewer>](https://ko-fi.com/MrGreensWorkshop "Tip me via Ko-fi")
 
 ---
 
 <div align="center">
-  <img src="https://mrgreen-jekylltheme.mrgreensworkshop.com/assets/img/posts/mock1.jpg" height="500" alt="screen_mock">
+  <img src="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/assets/img/posts/mock1.jpg" max-height="500" alt="screen_mock">
   <br><br>
-  <a href="https://MrGreen-JekyllTheme.MrGreensWorkshop.com" style="font-weight: bold;" >Click here for live demo</a>
+  <a href="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com" style="font-weight: bold;" >Click here for live demo</a>
 </div>
 
 
@@ -28,12 +29,12 @@
 
 <!-- outline-end -->
 
-I was going to make my website and thought if I did it as a template, I could share it with the open source community. That's why I decided to build it as a theme. I've worked so hard to make this possible so I'm happy if you consider [supporting me](https://github.com/MrGreensWorkshop#sponsorship). Thanks.
+I was going to make my website and thought if I did it as a template, I could share it with the open source community. That's why I decided to build it as a theme. I've worked so hard to make this possible, so please consider [supporting my work](#you-can-support-my-work). Thanks.
 
 ### Features
 
 - Multilingual web site
-  - English (default), Japanese (日本語)
+  - English (default), Japanese, Brazilian Portuguese
 - Recommended language offer feature
 - Auto Navigation Button adder with icon enable disable options
 - Layouts for `Home`, `About`, `Archives`, `Post-list`, `Links`, `Projects` and more
@@ -55,6 +56,7 @@ I was going to make my website and thought if I did it as a template, I could sh
   - [Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
 - Analytics (Google Analytics)
 - Cookie consent feature
+- Contact form feature (Google Forms)
 - Site Search feature
 - Code Compression for small footprint (`HTML` `JS` `SCSS`)
 - Mobile App support
@@ -65,7 +67,14 @@ I was going to make my website and thought if I did it as a template, I could sh
 
 #### Github pages
 
-1. Fork the repo and rename to `your_github_user_name.github.io`
+1. [Fork the repo](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/fork).
+1. Edit \_config.yml and change `url` like below and push changes.
+
+   ```yaml
+   url: "https://your_github_user_name.github.io"
+   ```
+
+1. Rename the repo name to `your_github_user_name.github.io`
 1. Check Deploy status `Actions` tab on the repo.
 1. When it's turned to green, your site is up and running at `https://your_github_user_name.github.io`
 
@@ -80,7 +89,7 @@ I was going to make my website and thought if I did it as a template, I could sh
 
 ### Documentation
 
-I know, I know, documents are never enough since I would rather write some code than write documents. But I will try to make time for documentation and tutorials.
+Check out [Mr. Green theme tutorials playlist](https://www.youtube.com/playlist?list=PLAymxPbYHgl-fFy5can7uZBMJtFWVcphD) on YouTube
 
 ### Credits
 
@@ -90,19 +99,29 @@ I want to thank these projects that gave me an opportunity to build my web site.
 
 - [GitHub Pages](https://pages.github.com/) Hosted directly from your GitHub repository. Just push the changes and the site will be automatically generated.
 
-Some of the sites that I find useful while I'm working on this project. [links page](https://MrGreen-JekyllTheme.MrGreensWorkshop.com/tabs/links.html)
+Some of the sites that I find useful while I'm working on this project. [links page](https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/tabs/links.html)
 
-### [You Can Support My Work](https://github.com/MrGreensWorkshop#sponsorship)
+### You Can Support My Work
 
 Creating projects starting from nothing takes a great amount of time. Much appreciated if you consider supporting me so that I can continue projects like this and creating new contents for everyone.
+
+- You can be one of my [GitHub Sponsors](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors") (monthly or one time)
+- You can be one of my [Patreons](https://patreon.com/MrGreensWorkshop "Be my Patron") (monthly)
+- You can tip me via [Ko-fi](https://ko-fi.com/MrGreensWorkshop "Tip Me via Ko-fi") (one time)
 
 ### Contribute
 
 Pull Requests are welcome. Please check the instructions in the Issues and Pull Request templates.
 
+### Contributors
+
+Thank you for your contributions!
+
+- Brazilian Portuguese translation by [Vitor DallAcqua](https://github.com/fandangos).
+
 ### License
 
-As it says in the [MIT license](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE), you can use this theme anywhere as long as you include the license and copyright notice.
+As it says in the [MIT license](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt), you can use this theme anywhere as long as you include the license and copyright notice.
 
 `Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
 

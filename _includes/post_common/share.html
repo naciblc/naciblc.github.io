@@ -1,12 +1,12 @@
 {%-comment-%}
-  Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
   Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
   Licensed under MIT
 {%-endcomment-%}
 
 {%comment-%} Post share links {%-endcomment-%}
 
-{%- capture page_title -%} {{ include.title }} - {{ site.data.owner.brand }} {%- endcapture %}
+{%- capture page_title -%} {{ include.title }} - {{ site.data.owner[lng].brand }} {%- endcapture %}
 {%- assign page_title = page_title | uri_escape -%}
 {%- assign page_url = include.url | absolute_url | url_encode -%}
 {%- if site.data.conf.posts.share_buttons_hover_effect -%}

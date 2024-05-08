@@ -1,10 +1,10 @@
 {%-comment-%}
-  Mr. Green Jekyll Theme - v1.0.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
   Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
   Licensed under MIT
 {%-endcomment-%}
 
-{%- assign app_name = site.data.owner.brand | append: "'s App" %}
+{%- assign app_name = site.data.owner[site.data.conf.main.default_lng].brand | append: "'s App" %}
 {%-comment-%} Don't forget to set published: true in /assets/manifest.json {%-endcomment%}
 <link rel="manifest" href="{{ site.baseurl }}/assets/manifest.json">
 
