@@ -21,7 +21,7 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt]
+language_switch_lang_list: [en, ja]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -250,9 +250,7 @@ creative_commons:
 ###########################################################
 meta:
   # if you enabled add_hreflang in sitemap.xml, make this false. (According to SEO pros, prevent using both. )
-  hreflang: true
-  # add published date and modified date
-  add_meta_date: false
+  hreflang: false
   # please note that google does not use keywords, but other search engines may.
   keywords: true
   google_site_verify: false
