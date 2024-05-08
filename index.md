@@ -2,11 +2,7 @@
 title: Home
 description: The official website of Naci Balcı
 last_modified_at: 2024
-layout: 
-header: 
-header-title: 
-header-subtitle: 
-caption: 
+layout: header
 ---
 
 
