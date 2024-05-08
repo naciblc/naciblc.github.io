@@ -55,9 +55,9 @@
     this.page.identifier = '{{ site.baseurl }}{{ page.url }}';
   };
 
-  function engineLoader() {
+  function disqusLoader() {
     var d = document, s = d.createElement('script');
-    s.src = 'https://{{ site.data.owner[lng].comments.disqus.shortname }}.disqus.com/embed.js';
+    s.src = 'https://{{ site.data.owner[lng].disqus_shortname }}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
   }
@@ -81,7 +81,7 @@
   let discusLoadDoNotAskStorageKey = "disqusLoadDoNotAskAgain";
 
   function add_click_to_load_button() {
-    if (localStorage.getItem(discusLoadDoNotAskStorageKey)) engineLoader();
+    if (localStorage.getItem(discusLoadDoNotAskStorageKey)) disqusLoader();
 
     /* create element */
     let newElement = document.createElement("div");
@@ -95,20 +95,21 @@
     }
 
     /* add button */
-    let holder = document.querySelector('#comment_thread');
+    let holder = document.querySelector('#disqus_thread');
     if (!holder) return;
     holder.appendChild(newElement);
     /* add button click event */
-    let buttons = document.querySelectorAll('#comment_thread .load_comments');
+    let buttons = document.querySelectorAll('#disqus_thread .load_comments');
     if (!buttons) return;
     buttons.forEach(function (button) {
       button.addEventListener('click', buttonCallback);
     });
 
     function buttonCallback(e) {
-      engineLoader();
-      newElement.remove();
-      slideToComments();
+      disqusLoader();
+      /* scroll to page bottom to see comments. */
+      document.getElementById('disqus_thread').style.height = '394px';
+      window.scrollTo(0, document.body.scrollHeight);
       if (e.target.hasAttribute('data-comment-always-load')) {
         localStorage.setItem(discusLoadDoNotAskStorageKey, true);
       }
@@ -119,22 +120,16 @@
   /* load when slide to the end of page */
   {%- if site.data.conf.posts.comments.disqus.load_mode == 'scroll_to_load'
     or site.data.conf.posts.comments.disqus.load_mode == 'scroll_to_load_but_mobile_click_to_load' %}
-  let isMobile = false;
+
   function page_bottom_Check(event) {
     let wind = event.target.scrollingElement;
-    let showBeforeEndOffset = 50;
-    if (isMobile) {
-      /* mobile fix */
-      showBeforeEndOffset += 56;
-    }
-    if (wind.offsetHeight + wind.scrollTop >= wind.scrollHeight - commentPageOffset - showBeforeEndOffset) {
-      engineLoader();
+    if (wind.offsetHeight + wind.scrollTop >= wind.scrollHeight - commentPageOffset) {
+      disqusLoader();
       document.removeEventListener('scroll', page_bottom_Check);
-      slideToComments();
     }
   }
 
-  const commentPageOffset = document.querySelector('#comment_thread').clientHeight;
+  const commentPageOffset = document.querySelector('#disqus_thread').clientHeight;
   document.addEventListener('scroll', page_bottom_Check);
 
   window.addEventListener("load", function() {
@@ -146,8 +141,7 @@
       add_click_to_load_button();
       checkScroll = false;
     {% endif -%}
-      /* mobile fix */
-      clientHeight = document.documentElement.clientHeight + 56;
+      clientHeight = document.documentElement.clientHeight + 56; /* mobile fix */
     } else {
       clientHeight = document.documentElement.clientHeight;
     }
@@ -156,8 +150,7 @@
     if (checkScroll == true && scroll_enabled == false) {
       /* if no scroll bar, load at startup */
       document.removeEventListener('scroll', page_bottom_Check);
-      engineLoader();
-      slideToComments();
+      disqusLoader();
     }
   });
   {% endif -%}
@@ -169,13 +162,7 @@
   {%- if site.data.conf.posts.comments.disqus.load_mode != 'click_to_load'
     and site.data.conf.posts.comments.disqus.load_mode != 'scroll_to_load'
     and site.data.conf.posts.comments.disqus.load_mode != 'scroll_to_load_but_mobile_click_to_load' %}
-  engineLoader();
-  {%- else %}
-  /* scroll to page bottom to see comments. */
-  function slideToComments() {
-    document.getElementById('comment_thread').style.minHeight = '394px';
-    window.scrollTo(0, document.body.scrollHeight);
-  }
+  disqusLoader();
   {% endif -%}
   </script>
 {%- endif %}
@@ -183,12 +170,12 @@
 {%comment-%} add comment count {%-endcomment-%}
 {%- if post_comment_enabled or page.layout == 'post-list' -%}
   {% if page.comments_disable != true and site.data.conf.posts.comments.disqus.comment_count %}
-    <script id="dsq-count-scr" src="https://{{ site.data.owner[lng].comments.disqus.shortname }}.disqus.com/count.js" async></script>
+    <script id="dsq-count-scr" src="https://{{ site.data.owner[lng].disqus_shortname }}.disqus.com/count.js" async></script>
     {%comment-%} scroll to comments {%-endcomment-%}
     {%if post_comment_enabled -%}
       <script>
-        if (window.location.hash == "#comment_thread") {
-          let element = document.getElementById('comment_thread');
+        if (window.location.hash == "#disqus_thread") {
+          let element = document.getElementById('disqus_thread');
           $("html, body").animate({ scrollTop: $(element).offset().top }, 600);
         }
       </script>
