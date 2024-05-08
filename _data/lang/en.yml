@@ -169,7 +169,7 @@ auto_content:
   title: Sample post (auto generated)
   greeting: Merhaba
   text: *meta_info
-  more_info: Learn More.
+  more_info: 
   auto_generated_text: Siber güvenlik ile ilgi writeup cheetsheet ve projelerimi paylaşıyorum, yararlı olması dileği ile...
 
 cookie_consent:
