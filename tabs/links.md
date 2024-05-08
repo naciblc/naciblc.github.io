@@ -40,11 +40,11 @@ lng_pair: id_links
 page_data:
   main:
     header: "Links"
-    info: ""
+    info: "Your Links page description."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "Sosyal Medya Sayfalarım"
+    - title: "JekyII / Liquid"
       type: id_jekyiiliquid
       color: "gray"
     - title: "Web Design"
@@ -53,6 +53,14 @@ page_data:
     - title: "Programming"
       type: id_programming
       color: "#62b462"
+
+  list:
+    -
+    # programming
+    - type: id_programming
+      title: "Stack OverFlow"
+      url: "https://stackoverflow.com/"
+      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
     # jekyiiliquid
     - type: id_jekyiiliquid
@@ -67,5 +75,6 @@ page_data:
       title: "Instagram"
       url: "https://instagram.com/naciblc0"
       info: "instagram hesabım"
+
 
 ---
