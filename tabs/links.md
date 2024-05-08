@@ -38,13 +38,11 @@ lng_pair: id_links
 #                Links Page Data
 ###########################################################
 page_data:
-  main:
-    header: "Links"
-    info: "Your Links page description."
+  
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
+    - title: "Sosyal Medya Sayfalarım"
       type: id_jekyiiliquid
       color: "gray"
     - title: "Web Design"
