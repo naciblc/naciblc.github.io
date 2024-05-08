@@ -128,8 +128,6 @@
 {% assign pages = site.html_pages | where_exp: "item", "item.layout == 'post-list'" %}
 {% if pages.size > 0 %} {% assign post_list_page_exist = true %} {% endif %}
 
-{% assign pages = site.html_pages | where_exp: "item", "item.layout == 'archives'" %}
-{% if pages.size > 0 %} {% assign archives_page_exist = true %} {% endif %}
 
 {% assign pages = site.html_pages | where_exp: "item", "item.layout == 'about'" %}
 {% if pages.size > 0 %} {% assign about_page_exist = true %} {% endif %}
