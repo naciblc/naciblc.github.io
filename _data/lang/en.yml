@@ -134,11 +134,6 @@ home:
   # if commented, top header will be a single line
   top_header_line2: ""
 
-# for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
 
 # for about layout
 about:
