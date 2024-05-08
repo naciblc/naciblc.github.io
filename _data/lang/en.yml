@@ -172,10 +172,10 @@ meta_common_description: &meta_info $site_brand is a multilingual theme generate
 
 auto_content:
   title: Sample post (auto generated)
-  greeting: Hello!
+  greeting: Merhaba
   text: *meta_info
   more_info: Learn More.
-  auto_generated_text: This is an auto generated sample content for display in the selected language.
+  auto_generated_text: Blog sayfamda siber güvenlik ile ilgili yararlı bilgiler paylaşmaya çalışıyorum...
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
