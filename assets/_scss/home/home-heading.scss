@@ -1,4 +1,4 @@
-/* Mr. Green Jekyll Theme - v1.1.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+/* Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  * Licensed under MIT
 */
@@ -18,13 +18,6 @@
   box-shadow: inset 0 -8px 5px -1px var(--home-heading-shadow-color);
   /* for centering home-heading-message */
   display: table;
-}
-
-.home-heading > img {
-  border-radius: 10px;
-  max-width: var(--main-container-width-limit);
-  width: 100%;
-  height: auto;
 }
 
 .home-heading-message {
@@ -51,14 +44,10 @@
   color: var(--home-intro-text-header-color);
 }
 
-/* home intro text */
-/* currently handled by markdown-style use this to override */
-/*
 .home-intro-text > p {
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
-*/
 
 /* remove last spacing */
 .home-intro-text > p:last-child {

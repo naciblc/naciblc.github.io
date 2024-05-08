@@ -1,5 +1,5 @@
 {%-comment-%}
-  Mr. Green Jekyll Theme - v1.1.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+  Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
   Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
   Licensed under MIT
 {%-endcomment-%}
@@ -15,10 +15,10 @@
 {%- endif %}
 
 {%-comment-%} for more info https://developers.google.com/web/ilt/pwa/lab-integrating-analytics?hl=en {%-endcomment-%}
-<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.data.owner[lng].google_analytics_id }}"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.data.owner.google_analytics_id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() {dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ site.data.owner[lng].google_analytics_id }}');
+  gtag('config', '{{ site.data.owner.google_analytics_id }}');
 </script>

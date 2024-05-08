@@ -1,4 +1,4 @@
-/* Mr. Green Jekyll Theme - v1.1.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+/* Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  * Licensed under MIT
 */
@@ -47,7 +47,6 @@
   font-size: 3.5rem;
   margin-top: 0px;
   color: var(--about-header-title-color);
-  width: calc((100vw - var(--side-nav-width)) / 2);
 }
 
 /* sub-title and email font */
@@ -76,25 +75,18 @@
   padding: var(--text-spacing);
 }
 
-/* remove first and last spacing */
-.about-container .about-msg :first-child {
-  margin-top: 0;
-}
-
+/* remove last spacing */
 .about-container .about-msg :last-child {
   margin-bottom: 0;
 }
 
 /* about text */
-/* currently handled by markdown-style use this to override */
-/*
 .about-container .about-msg > p {
   font-size: 1.6rem;
   font-weight: 300;
-  //color: var(--about-msg-text-color);
+  /*color: var(--about-msg-text-color);*/
   text-align: justify;
 }
-*/
 
 @media screen and (max-width: 500px) {
   .about-container {

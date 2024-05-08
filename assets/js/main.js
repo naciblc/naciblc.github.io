@@ -1,7 +1,7 @@
 ---
 layout: util/compress_js
 ---
-/*! Mr. Green Jekyll Theme - v1.1.0 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
+/*! Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  *  Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  *  Licensed under MIT
 */
@@ -24,13 +24,10 @@ layout: util/compress_js
   {% include_relative _js/default/scroll-to-top.js %}
 {%- endif %}
 
-{% for owner in site.data.owner -%}
-  {% assign email_exist = owner[1].contacts | where_exp: "item", "item.email != nil" | first -%}
-  {% if email_exist -%}
-    {% include_relative _js/default/set-email.js %}
-    {% break %}
-  {%- endif %}
-{%- endfor %}
+{% assign email_exist = site.data.owner.contacts | where_exp: "item", "item.email != nil" | first -%}
+{% if email_exist -%}
+  {% include_relative _js/default/set-email.js %}
+{%- endif %}
 
 {% if site.data.lang.size > 1 and site.data.conf.main.language_switch_lang_list.size > 1 and site.data.conf.main.language_translation_offer_box -%}
   {% include_relative _js/default/check-storage-availability.js %}

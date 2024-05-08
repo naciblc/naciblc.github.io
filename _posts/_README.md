@@ -14,9 +14,9 @@
 ---
 
 <div align="center">
-  <img src="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/assets/img/posts/mock1.jpg" height="500" alt="screen_mock">
+  <img src="https://mrgreen-jekylltheme.mrgreensworkshop.com/assets/img/posts/mock1.jpg" height="500" alt="screen_mock">
   <br><br>
-  <a href="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com" style="font-weight: bold;" >Click here for live demo</a>
+  <a href="https://MrGreen-JekyllTheme.MrGreensWorkshop.com" style="font-weight: bold;" >Click here for live demo</a>
 </div>
 
 
@@ -65,7 +65,7 @@ I was going to make my website and thought if I did it as a template, I could sh
 
 #### Github pages
 
-1. [Fork the repo](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/fork).
+1. Fork the repo.
 1. Edit \_config.yml and change `url` like below and push changes.
 
    ```yaml
@@ -87,7 +87,8 @@ I was going to make my website and thought if I did it as a template, I could sh
 
 ### Documentation
 
-Check out [Mr. Green theme tutorials playlist](https://www.youtube.com/playlist?list=PLAymxPbYHgl-fFy5can7uZBMJtFWVcphD) on YouTube
+I know, I know, documents are never enough since I would rather write some code than write documents. But I will try to make time for documentation and tutorials.
+Check out [Mr. Green theme tutorials playlist](https://www.youtube.com/watch?v=Tz5iWWX0WD4&list=PLAymxPbYHgl-fFy5can7uZBMJtFWVcphD) on YouTube
 
 ### Credits
 
@@ -97,7 +98,7 @@ I want to thank these projects that gave me an opportunity to build my web site.
 
 - [GitHub Pages](https://pages.github.com/) Hosted directly from your GitHub repository. Just push the changes and the site will be automatically generated.
 
-Some of the sites that I find useful while I'm working on this project. [links page](https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/tabs/links.html)
+Some of the sites that I find useful while I'm working on this project. [links page](https://MrGreen-JekyllTheme.MrGreensWorkshop.com/tabs/links.html)
 
 ### [You Can Support My Work](https://github.com/MrGreensWorkshop#sponsorship)
 
