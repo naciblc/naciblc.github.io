@@ -1,3 +1,15 @@
+---
+title: Home
+description: The official website of Naci Balcı
+last_modified_at: 2024
+layout: header
+header: 
+header-title: 
+header-subtitle: 
+caption: 
+---
+
+
 <div class="feature" markdown=0>
     
     <a href="https://absurdrealms.com/" target="_blank"><img src="/assets/images/ar_icon_small.png"></a>
@@ -8,7 +20,6 @@
         <div><a href="https://absurdrealms.com/" target="_blank">visit website</a></div>
     </div>
 </div>
--------------------------------------------------------------------------------------------------------------------------
 
 <div class="feature" markdown=0>
     <a href="https://schizoidnightmares.net/" target="_blank"><img src="/assets/images/snf_icon_small.png"></a>
