@@ -44,23 +44,23 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
-      color: "#62b462"
+#    - title: "My Links"
+ #     type: id_jekyiiliquid
+  #    color: "gray"
+   # - title: "Web Design"
+    #  type: id_webdesign
+     # color: "#F4A273"
+    #- title: "Programming"
+     # type: id_programming
+      #color: "#62b462"
 
   list:
     -
     # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+    #- type: id_programming
+     # title: "Stack OverFlow"
+      #url: "https://stackoverflow.com/"
+      #info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
     # jekyiiliquid
     - type: id_jekyiiliquid
@@ -85,8 +85,8 @@ page_data:
       info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
 
     # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+    #- type: id_webdesign
+    #  title: "W3Schools"
+     # url: "https://www.w3schools.com/"
+      #info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
 ---
