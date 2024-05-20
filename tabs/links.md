@@ -66,7 +66,7 @@ page_data:
     - type: links
       title: "Linkedin"
       url: "https://www.linkedin.com/in/naciblc/"
-      #info: "My Linkedin Account"
+      info: "My Linkedin Account"
     - type: id_jekyiiliquid
       title: "Jekyll Cheat Sheet"
       url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
