@@ -67,10 +67,10 @@ page_data:
       title: "Linkedin"
       url: "https://www.linkedin.com/in/naciblc/"
       info: "My Linkedin Account"
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
+    - type: links
+      title: "GitHub"
+      url: "https://github.com/naciblc"
+      info: "My GitHub Account"
     - type: id_jekyiiliquid
       title: "Liquid for Designers"
       url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
