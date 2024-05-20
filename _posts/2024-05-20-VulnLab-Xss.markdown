@@ -37,8 +37,6 @@ date: 2024-05-20 12:32:10 +0900
 #published: false
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,16 +49,15 @@ date: 2024-05-20 12:32:10 +0900
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #2c3e50; /* Arka plan rengini değiştirdim */
         }
         iframe {
-            width: 80%;
-            height: 90%;
-            border: 1px solid #ccc;
+            width: 90%;
+            height: 95%;
+            border: none; /* Kenarlıkları kaldırdım */
         }
     </style>
 </head>
 <body>
     <iframe src="https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview" frameborder="0"></iframe>
 </body>
-</html>
