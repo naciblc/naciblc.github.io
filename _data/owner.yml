@@ -29,7 +29,7 @@ creative_commons:
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
+  - github: "https://github.com/naciblc"
   #- email: ""
   #- linkedin: ""
   #- twitter: ""
