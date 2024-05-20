@@ -45,7 +45,7 @@ page_data:
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
     - title: "My Links"
-      type: id_jekyiiliquid
+      type: links
       color: "#0000FF"
     #- title: "Web Design"
      # type: id_webdesign
