@@ -38,5 +38,5 @@ date: 2024-05-20 12:32:10 +0900
 ---
 
 <body>
-    <iframe src="https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview" frameborder="0"></iframe>
+    <iframe src="https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview"></iframe>
 </body>
