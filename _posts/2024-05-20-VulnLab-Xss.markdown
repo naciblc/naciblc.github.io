@@ -37,4 +37,6 @@ date: 2024-05-20 12:32:10 +0900
 #published: false
 ---
 
-https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4;">
+    <iframe src="https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview" style="width: 80%; height: 90%; border: none;"></iframe>
+</div>
