@@ -15,10 +15,10 @@ page_data:
     - title: "İnsta Data"
       type: insta_data
       color: "purple"
-    - #title: "Picture"
+    #- #title: "Picture"
       #type: id_picture
       #color: "#62b462"
-    - #title: "Quote"
+   # - #title: "Quote"
       #type: id_quote
       #color: "#2FD0ED"
 
