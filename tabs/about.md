@@ -5,6 +5,7 @@ lng_pair: id_about
 
 # image for page specific usage
 img: ":about.jpg"
+github: "naciblc"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -41,5 +42,4 @@ img: ":about.jpg"
 Merhaba ben Naci Yönetim Bilişim Sistemleri bölümünde okumaktayım. Siber güvenlik ile ilgileniyorum.
 Siber Vatan kapsamında İleri Web,Tersine Mühendislik vb eğitimleri aldım ve almaya devam ediyorum.
 Ctf çözümleri, projelerimi ve işinize yarayacak trickleri paylaşıyorum. 
-{{ github: "naciblc" }}
 {{ website_info_text_second }}
