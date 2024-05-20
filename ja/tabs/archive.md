@@ -1,26 +1,21 @@
 ---
+layout: archives
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: naci_1
-title: "NACİ BURADA"
+lng_pair: id_archives
 
-# post specific
-# if not specified, .name will be used from _data/owner.yml
-author: Naci
-# multiple category is not supported
-category: Writeups
-# multiple tag entries are possible
-tags: [WriteUps, Ctf]
-# thumbnail image for post
-img: ":post_pic3.jpg"
-# disable comments on this page
-#comments_disable: true
+# publish date (used for seo)
+# if not specified, site.time will be used.
+#date: 2022-03-03 12:32:00 +0000
 
-# publish date
-date: 2024-05-20 10:04:30 +0900
+# for override items in _data/lang/[language].yml
+#title: My title
+#button_name: "My button"
+# for override side_and_top_nav_buttons in _data/conf/main.yml
+#icon: "fa fa-bath"
 
 # seo
 # if not specified, date will be used.
-#meta_modify_date: 2022-01-01 10:04:30 +0900
+#meta_modify_date: 2022-03-03 12:32:00 +0000
 # check the meta_common_description in _data/lang/[language].yml
 #meta_description: ""
 
@@ -36,6 +31,3 @@ date: 2024-05-20 10:04:30 +0900
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
-<!-- outline-start -->
-
-Naci buraya yazı yazıyor...

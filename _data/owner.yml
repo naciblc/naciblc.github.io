@@ -2,14 +2,14 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Naci Balci"
+brand: "Your Brand"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Naci Balci"
+name: "Your Name"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2024"
+copyright_start_year: "2022"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:

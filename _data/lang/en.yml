@@ -6,7 +6,7 @@ lng:
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: US
-  switch_title: Tr
+  switch_title: En
   offer:
     title: Language
     msg_page: View this page in English.
@@ -27,7 +27,7 @@ not_found:
 no_translation_tooltip: No Translation
 
 navigation:
-  brand_sub_text: Cyber Security
+  brand_sub_text: Jekyll theme
   contact_header: Contact
 
 color_scheme_switch_tooltip: Color scheme
@@ -130,16 +130,21 @@ home:
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
-  top_header_line1: ""
+  top_header_line1: "Welcome To"
   # if commented, top header will be a single line
-  top_header_line2: ""
+  top_header_line2: "$site_brand Theme"
 
+# for archives layout
+archives:
+  title: Archive
+  button_name: Archive
+  page_header: Archive
 
 # for about layout
 about:
   title: About
   button_name: About
-  sub_title: "Cyber Security"
+  sub_title: "Awesome jekyll theme"
   email_title: email
 
 # for links layout
@@ -163,14 +168,14 @@ privacy-policy:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: 
+meta_common_description: &meta_info $site_brand is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages.
 
 auto_content:
   title: Sample post (auto generated)
-  greeting: Merhaba
+  greeting: Hello!
   text: *meta_info
-  more_info: 
-  auto_generated_text: Siber güvenlik ile ilgi writeup cheetsheet ve projelerimi paylaşıyorum, yararlı olması dileği ile...
+  more_info: Learn More.
+  auto_generated_text: This is an auto generated sample content for display in the selected language.
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
