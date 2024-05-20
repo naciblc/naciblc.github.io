@@ -63,10 +63,10 @@ page_data:
       #info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
 
     # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
+    - type: links
+      title: "Linkedin"
+      url: "https://www.linkedin.com/in/naciblc/"
+      #info: "My Linkedin Account"
     - type: id_jekyiiliquid
       title: "Jekyll Cheat Sheet"
       url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
