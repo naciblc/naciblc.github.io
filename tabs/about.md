@@ -41,4 +41,5 @@ img: ":about.jpg"
 Merhaba ben Naci Yönetim Bilişim Sistemleri bölümünde okumaktayım. Siber güvenlik ile ilgileniyorum.
 Siber Vatan kapsamında İleri Web,Tersine Mühendislik vb eğitimleri aldım ve almaya devam ediyorum.
 Ctf çözümleri, projelerimi ve işinize yarayacak trickleri paylaşıyorum. 
+{{ github: "naciblc" }}
 {{ website_info_text_second }}
