@@ -46,13 +46,13 @@ page_data:
   category:
     - title: "My Links"
       type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
-      color: "#62b462"
+      color: "#0000FF"
+    #- title: "Web Design"
+     # type: id_webdesign
+      #color: "#F4A273"
+    #- title: "Programming"
+     # type: id_programming
+      #color: "#62b462"
 
   list:
     -
