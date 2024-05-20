@@ -37,27 +37,6 @@ date: 2024-05-20 12:32:10 +0900
 #published: false
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn PDF Viewer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #2c3e50; /* Arka plan rengini değiştirdim */
-        }
-        iframe {
-            width: 90%;
-            height: 95%;
-            border: none; /* Kenarlıkları kaldırdım */
-        }
-    </style>
-</head>
 <body>
     <iframe src="https://drive.google.com/file/d/1dciAJ0KGGBm62zF7JJpDttw1KmnEbnEj/preview" frameborder="0"></iframe>
 </body>
