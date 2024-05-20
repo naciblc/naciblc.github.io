@@ -238,9 +238,6 @@
   {% endif %}
 {% endif %}
 
-{% if archives_page_exist %}
-  @import "archives/archives";
-{% endif %}
 
 {% if links_page_exist %}
   @import "links/link-style";
