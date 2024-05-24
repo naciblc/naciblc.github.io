@@ -127,7 +127,7 @@ post-list:
 home:
   title: Welcome
   button_name: Home
-  new_posts_title: New Articles
+  new_posts_title: Son Gönderiler
   new_posts_show_more_button: View More ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   top_header_line1: ""
