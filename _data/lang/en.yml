@@ -128,7 +128,7 @@ home:
   title: Welcome
   button_name: Home
   new_posts_title: Son Gönderiler
-  new_posts_show_more_button: View More ...
+  new_posts_show_more_button: Daha Fazla ...
   # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
   top_header_line1: ""
   # if commented, top header will be a single line
