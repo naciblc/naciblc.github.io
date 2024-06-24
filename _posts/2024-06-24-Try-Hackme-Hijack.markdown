@@ -38,3 +38,4 @@ date: 2024-06-24 11:43:10 +0900
 ---
 
 Naci Balcı Writeups
+<img alt="" class="bg kt lu c" width="473" height="298" loading="eager" role="presentation" src="https://miro.medium.com/v2/resize:fit:574/1*_BH3Ga8AM3mob--nA9uZpg.png">
