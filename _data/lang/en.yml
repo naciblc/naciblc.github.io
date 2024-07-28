@@ -176,7 +176,7 @@ auto_content:
   greeting: Hoşgeldiniz
   text: *meta_info
   more_info: 
-  auto_generated_text: Siber Güvenlik & Writeup Çözümleri & CheetSheet
+  auto_generated_text: Cyber Security
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
